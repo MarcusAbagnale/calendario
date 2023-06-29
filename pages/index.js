@@ -1,6 +1,16 @@
-function Home(){
-    return <div>Bem Vindo! Agora sim tá demais esse tal de Next Acho que o resto eu sei um pouco como fazer
-    </div>
+function Home() {
+  return (
+      <iframe
+        style={{
+          width: '100%',
+          height: '100vh',
+          border: 'none',
+          overflow: 'hidden',
+        }}
+        src="https://utoaqui.000webhostapp.com/"
+      ></iframe>
+  );
 }
 
 export default Home;
+
